@@ -17,7 +17,7 @@ if (fs.existsSync(FILE)) {
   
    const record = { 
      time: time, 
-     date: new Date() 
+     date: new Date()
    }; 
   
    records.push(record); 
@@ -32,4 +32,4 @@ if (fs.existsSync(FILE)) {
    }); 
  });
  
- export default home
+ export default Router
