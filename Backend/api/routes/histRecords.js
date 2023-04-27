@@ -35,4 +35,4 @@ router.get('/', (_req, res) => {
  });
  
  
- export daafult histRecords
+ export default histRecords
